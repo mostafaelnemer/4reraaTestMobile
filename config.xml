@@ -18,43 +18,7 @@
         4reraa‏ Team
     </author>
     <content src="index.html" />
-    <preference name="StatusBarOverlaysWebView" value="false" />
-    <preference name="AllowInlineMediaPlayback" value="true" />
-    <preference name="SplashScreenDelay" value="10000" />
     <access origin="*" />
-    <platform name="ios">
-        <icon height="180" src="www/res/icon/ios/icon-60@3x.png" width="180" />
-        <icon height="60" src="www/res/icon/ios/icon-60.png" width="60" />
-        <icon height="120" src="www/res/icon/ios/icon-60@2x.png" width="120" />
-        <icon height="76" src="www/res/icon/ios/icon-76.png" width="76" />
-        <icon height="152" src="www/res/icon/ios/icon-76@2x.png" width="152" />
-        <icon height="40" src="www/res/icon/ios/icon-40.png" width="40" />
-        <icon height="80" src="www/res/icon/ios/icon-40@2x.png" width="80" />
-        <icon height="57" src="www/res/icon/ios/icon.png" width="57" />
-        <icon height="114" src="www/res/icon/ios/icon@2x.png" width="114" />
-        <icon height="72" src="www/res/icon/ios/icon-72.png" width="72" />
-        <icon height="144" src="www/res/icon/ios/icon-72@2x.png" width="144" />
-        <icon height="29" src="www/res/icon/ios/icon-small.png" width="29" />
-        <icon height="58" src="www/res/icon/ios/icon-small@2x.png" width="58" />
-        <icon height="50" src="www/res/icon/ios/icon-50.png" width="50" />
-        <icon height="100" src="www/res/icon/ios/icon-50@2x.png" width="100" />
-        <splash height="480" src="www/res/screen/ios/Default~iphone.png" width="320" />
-        <splash height="960" src="www/res/screen/ios/Default@2x~iphone.png" width="640" />
-        <splash height="1024" src="www/res/screen/ios/Default-Portrait~ipad.png" width="768" />
-        <splash height="2048" src="www/res/screen/ios/Default-Portrait@2x~ipad.png" width="1536" />
-        <splash height="768" src="www/res/screen/ios/Default-Landscape~ipad.png" width="1024" />
-        <splash height="1536" src="www/res/screen/ios/Default-Landscape@2x~ipad.png" width="2048" />
-        <splash height="1136" src="www/res/screen/ios/Default-568h@2x~iphone.png" width="640" />
-        <splash height="1334" src="www/res/screen/ios/Default-667h.png" width="750" />
-        <splash height="2208" src="www/res/screen/ios/Default-736h.png" width="1242" />
-        <splash height="1242" src="www/res/screen/ios/Default-Landscape-736h.png" width="2208" />
-        <splash src="www/res/screen/ios/Default@2x~universal~anyany.png" />
-        <splash src="www/res/screen/ios/Default@2x~universal~comany.png" />
-        <splash src="www/res/screen/ios/Default@2x~universal~comcom.png" />
-        <splash src="www/res/screen/ios/Default@3x~universal~anyany.png" />
-        <splash src="www/res/screen/ios/Default@3x~universal~anycom.png" />
-        <splash src="www/res/screen/ios/Default@3x~universal~comany.png" />
-    </platform>
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -86,15 +50,16 @@
         <variable name="KEEP_AVAUDIOSESSION_ALWAYS_ACTIVE" value="NO" />
     </plugin>
     <plugin name="cordova-plugin-x-socialsharing" spec="5.4.4" />
-
+    <plugin name="uk.co.workingedge.phonegap.plugin.launchnavigator" spec="5.0.2">
+        <variable name="GOOGLE_API_KEY_FOR_ANDROID" value="AIzaSyAQEddaDk0teVRCde15IqYQrrl0vMilKXo" />
+        <variable name="LOCATION_USAGE_DESCRIPTION" value="This app requires access to your location for navigation purposes" />
+    </plugin>
     <plugin name="com-sarriaroman-photoviewer" spec="1.2.0" />
     <plugin name="cordova-plugin-request-location-accuracy" spec="2.2.3" />
     <plugin name="cordova-open-native-settings" spec="1.5.2" />
     <plugin name="cordova-plugin-x-toast" spec="2.7.2" />
     <plugin name="cordova-plugin-keyboard" spec="1.2.0" />
-    <plugin name="cordova-support-google-services" spec="1.2.1" />
-    <plugin name="cordova-plugin-firebase-messaging" spec="1.2.1" />
-
-
+    <plugin name="cordova-plugin-fcm" spec="2.1.2" />
+    <plugin name="cordova-plugin-local-notification" spec="0.9.0-beta.2" />
     <engine name="ios" spec="^4.5.5" />
 </widget>
