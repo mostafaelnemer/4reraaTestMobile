@@ -92,7 +92,8 @@
     <plugin name="cordova-open-native-settings" spec="1.5.2" />
     <plugin name="cordova-plugin-x-toast" spec="2.7.2" />
     <plugin name="cordova-plugin-keyboard" spec="1.2.0" />
-    <plugin name="cordova-plugin-firebase" spec="2.0.5" />
+    <plugin name="cordova-plugin-firebase-messaging" spec="1.2.1" />
+    <plugin name="cordova-support-google-services" spec="1.2.1" />
 
     <engine name="ios" spec="^4.5.5" />
 </widget>
