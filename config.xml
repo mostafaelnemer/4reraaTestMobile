@@ -87,12 +87,7 @@
     </plugin>
     <plugin name="cordova-plugin-x-socialsharing" spec="5.4.4" />
 
-    <plugin name="com-sarriaroman-photoviewer" spec="1.2.0" />
-    <plugin name="cordova-plugin-request-location-accuracy" spec="2.2.3" />
-    <plugin name="cordova-open-native-settings" spec="1.5.2" />
-    <plugin name="cordova-plugin-x-toast" spec="2.7.2" />
-    <plugin name="cordova-plugin-keyboard" spec="1.2.0" />
-    <plugin name="cordova-plugin-fcm" spec="2.1.2" />
+
 
     <engine name="ios" spec="^4.5.5" />
 </widget>
